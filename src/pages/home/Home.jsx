@@ -1,11 +1,13 @@
 
+import "./Home.scss";
+import Slider from "../../components/slider/Slider";
 
 const Home = () => {
     return (
-        <>
-            Home
+        <div className="home">
+            <Slider />
 
-        </>
+        </div>
     )
 }
 
